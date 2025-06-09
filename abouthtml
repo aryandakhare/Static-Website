@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Aryan Dakhare</title>
+    <style>
+        /* Basic CSS for the page layout and appearance */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center the text within the contact container */
+        }
+        h1 {
+            color: #333;
+        }
+        .contact-info {
+            margin-top: 30px;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+        .contact-info a {
+            color: #007bff; /* Blue link color */
+            text-decoration: none; /* Remove underline from links */
+        }
+        .contact-info a:hover {
+            text-decoration: underline; /* Add underline on hover */
+        }
+        /* Optional: Add a simple navigation bar if you want to link between pages */
+        nav {
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007bff; /* Blue link color */
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="about.html">About Me</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+        <h1>Contact Aryan Dakhare</h1>
+        <div class="contact-info">
+            <p>I'd love to connect! Feel free to reach out:</p>
+            <p>
+                <strong>Email:</strong> 
+                <a href="mailto:your.email@example.com">your.email@example.com</a> 
+                </p>
+            <p>
+                <strong>LinkedIn:</strong> 
+                <a href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank">Your LinkedIn Profile</a>
+                </p>
+            <p>
+                <strong>GitHub:</strong> 
+                <a href="https://github.com/your-github-username" target="_blank">Your GitHub Profile</a>
+                </p>
+            <p>You can also connect with me on social media!</p>
+            </div>
+    </div>
+</body>
+</html>
